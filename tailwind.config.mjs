@@ -14,8 +14,9 @@ export default {
     },
     backgroundImage: {
       vitaminc: "url('/images/bg-1.png')",
-      vitaminB3: "url('images/bg-2.png')",
-      lactobacillus: "url('images/bg-3.png')",
+      vitaminB3: "url('/images/bg-2.png')",
+      lactobacillus: "url('/images/bg-3.png')",
+      bg4: "url('/images/bg-4.png')",
     },
   },
   plugins: [],

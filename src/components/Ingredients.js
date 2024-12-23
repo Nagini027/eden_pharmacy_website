@@ -4,7 +4,7 @@ const Ingredients = () => {
   return (
     <div>
       <div className="md:w-[850px] flex md:flex-row flex-col gap-3   mx-auto ">
-        <div className="md:w-[340px] min-w-min bg-white p-1">
+        <div className="md:w-[300px] min-w-min bg-white p-1">
           <h2 className="text-xs text-cyan-800 font-bold">INGREDIENTS</h2>
           <h3 className="text-lg mt-1 text-cyan-800 font-bold">
             Better Ingredients
@@ -14,21 +14,72 @@ const Ingredients = () => {
             quality ingredients for high quality products
           </p>
         </div>
-        <div className="md:w-[240px] min-w-min bg-cyan-100">
-          <div className="bg-vitaminc bg-fixed md:h-40 ">
+        {/* 2*/}
+        <div className="md:w-[280px] min-w-min ">
+          <div className="bg-vitaminc bg-cover md:h-44 p-5">
             <h3 className="text-md font-semibold">Vitamin C</h3>
-            <p className="font-">Vitamin C ascorbic acid</p>
+            <p className="text-xs text-gray-600 pt-2">
+              Vitamin C ascorbic acid
+            </p>
 
-            <button className="border-blue-200 border-w-2">SEE MORE</button>
+            <button className=" border-w-2 pt-16 text-xs font-semibold text-green-950 border-b-2 border-slate-900">
+              SEE MORE
+            </button>
           </div>
         </div>
-        <div className="md:w-[245px] min-w-min  bg-cyan-100">hello</div>
+        {/* 3*/}
+        <div className="md:w-[245px] min-w-min  bg-cyan-100 rounded-lg">
+          <div className="bg-vitaminc bg-cover md:h-44 p-5">
+            <h3 className="text-md font-semibold">Vitamin C</h3>
+            <p className="text-xs text-gray-600 pt-2">
+              Vitamin C ascorbic acid
+            </p>
+
+            <button className=" border-w-2 pt-16 text-xs font-semibold text-green-950 border-b-2 border-slate-900">
+              SEE MORE
+            </button>
+          </div>
+        </div>
       </div>
-      <div className="md:w-[850px] bg-slate-600 flex md:flex-row flex-col gap-3 mx-auto pt-2">
-        <div className="md:w-[235px] min-w-min bg-cyan-100 ">hello</div>
-        <div className="md:w-[235px] min-w-min bg-cyan-100">hello</div>
-        <div className="md:w-[235px] min-w-min bg-cyan-100">hello</div>
-        <div className="md:w-[108px] min-w-min bg-cyan-100">hello</div>
+      {/* 4 */}
+      <div className="md:w-[850px]  flex md:flex-row flex-col gap-3 mx-auto pt-2">
+        <div className="md:w-[235px] min-w-min bg-cyan-100 rounded-lg ">
+          <div className="bg-vitaminc bg-cover md:h-44 p-5">
+            <h3 className="text-md font-semibold">Vitamin C</h3>
+            <p className="text-xs text-gray-600 pt-2">
+              Vitamin C ascorbic acid
+            </p>
+
+            <button className=" border-w-2 pt-16 text-xs font-semibold text-green-950 border-b-2 border-slate-900">
+              SEE MORE
+            </button>
+          </div>
+        </div>
+        <div className="md:w-[235px] min-w-min bg-cyan-100 rounded-lg">
+          <div className="bg-vitaminB3 bg-cover md:h-44 p-5">
+            <h3 className="text-md font-semibold">Vitamin C</h3>
+            <p className="text-xs text-gray-600 pt-2">
+              Vitamin C ascorbic acid
+            </p>
+
+            <button className=" border-w-2 pt-16 text-xs font-semibold text-green-950 border-b-2 border-slate-900">
+              SEE MORE
+            </button>
+          </div>
+        </div>
+        <div className="md:w-[235px] min-w-min bg-cyan-100 rounded-lg">
+          <div className="bg-lactobacillus bg-cover md:h-44 p-5">
+            <h3 className="text-md font-semibold">Vitamin C</h3>
+            <p className="text-xs text-gray-600 pt-2">
+              Vitamin C ascorbic acid
+            </p>
+
+            <button className=" border-w-2 pt-16 text-xs font-semibold text-green-950 border-b-2 border-slate-900">
+              SEE MORE
+            </button>
+          </div>
+        </div>
+        <div className="md:w-[108px] min-w-min bg-bg4 md:h-44 bg-cover"></div>
       </div>
     </div>
   );
