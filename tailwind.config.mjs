@@ -17,6 +17,7 @@ export default {
       vitaminB3: "url('/images/bg-2.png')",
       lactobacillus: "url('/images/bg-3.png')",
       bg4: "url('/images/bg-4.png')",
+      bg5: "url('/images/div.item-post-inner.png')",
     },
   },
   plugins: [],
