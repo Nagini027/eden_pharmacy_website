@@ -12,6 +12,11 @@ export default {
         foreground: "var(--foreground)",
       },
     },
+    backgroundImage: {
+      vitaminc: "url('/images/bg-1.png')",
+      vitaminB3: "url('images/bg-2.png')",
+      lactobacillus: "url('images/bg-3.png')",
+    },
   },
   plugins: [],
 };
