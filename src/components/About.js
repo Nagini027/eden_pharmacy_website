@@ -2,7 +2,7 @@ import React from "react";
 import Image from "next/image";
 const About = () => {
   return (
-    <div className="md:w-[850px] bg-cyan-950  md:mx-auto md:px-20 rounded-3xl">
+    <div className="md:w-[850px] bg-[#17414F]  md:mx-auto md:px-20 rounded-3xl">
       {/* first */}
       <div className="flex md:flex-row flex-col md:gap-20 gap-6  ">
         {/* 1 */}
@@ -13,6 +13,7 @@ const About = () => {
                 src="/images/Group-8111.svg.png"
                 width={20}
                 height={20}
+                alt="image"
                 className="mx-auto pt-5"
               />
             </div>
@@ -33,12 +34,13 @@ const About = () => {
                 width={20}
                 height={20}
                 className="mx-auto pt-5"
+                alt="image"
               />
             </div>
             <div className="mx-auto">
-              <p className="text-white text-md py-2">Clinically studied</p>
-              <p className="text-white text-xs tracking-tight w-40">
-                All products that we offer have undergone lab and safety tests
+              <p className="text-white text-md py-2">Vegetarian Friendly</p>
+              <p className="text-[#D9D9D9] text-xs tracking-tighter w-40">
+                We have a wide selection of products to meet your needs
               </p>
             </div>
           </div>
@@ -52,12 +54,13 @@ const About = () => {
                 width={20}
                 height={20}
                 className="mx-auto pt-5"
+                alt="image"
               />
             </div>
             <div className="mx-auto">
-              <p className="text-white text-md py-2">Clinically studied</p>
-              <p className="text-white text-xs tracking-tight w-40">
-                All products that we offer have undergone lab and safety tests
+              <p className="text-white text-md py-2 ml-3">Made in India</p>
+              <p className="text-white text-xs tracking-tighter w-40">
+                Shop local and explore health products made right here in India
               </p>
             </div>
           </div>
@@ -73,13 +76,14 @@ const About = () => {
                 src="/images/Group-8114.svg.png"
                 width={20}
                 height={20}
+                alt="image"
                 className="mx-auto pt-5"
               />
             </div>
             <div className="mx-auto">
-              <p className="text-white text-md py-2">Clinically studied</p>
+              <p className="text-white text-md py-2 ml-4">Free shipping</p>
               <p className="text-white text-xs tracking-tight w-40">
-                All products that we offer have undergone lab and safety tests
+                We deliver to your door with no shipping costs on your orders
               </p>
             </div>
           </div>
@@ -92,13 +96,15 @@ const About = () => {
                 src="/images/Group-8115.svg.png"
                 width={20}
                 height={20}
+                alt="image"
                 className="mx-auto pt-5"
               />
             </div>
             <div className="mx-auto">
-              <p className="text-white text-md py-2">Clinically studied</p>
+              <p className="text-white text-md py-2 ml-10">No Risk</p>
               <p className="text-white text-xs tracking-tight w-40">
-                All products that we offer have undergone lab and safety tests
+                We ensure that all products are safe and within their use-by
+                date
               </p>
             </div>
           </div>
@@ -108,16 +114,18 @@ const About = () => {
           <div className="flex flex-col">
             <div className="bg-white w-16 h-16  rounded-full  ml-8 ">
               <Image
-                src="/images/Group-8111.svg.png"
+                src="/images/Group-8116.svg.png"
                 width={20}
                 height={20}
+                alt="image"
                 className="mx-auto pt-5"
               />
             </div>
             <div className="mx-auto">
-              <p className="text-white text-md py-2">Clinically studied</p>
-              <p className="text-white text-xs tracking-tight w-40">
-                All products that we offer have undergone lab and safety tests
+              <p className="text-white text-md py-2 ml-6">GMO free</p>
+              <p className="text-white text-xs tracking-tighter w-40">
+                Natural, no modified products and derivatives for those who need
+                it
               </p>
             </div>
           </div>

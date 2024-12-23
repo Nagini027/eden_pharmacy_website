@@ -6,7 +6,7 @@ const Explore = () => {
   return (
     <div className="px-3">
       <div className="bg-[#b2e2f0] md:pl-44 md:pt-6 pt-4 h-3/5">
-        <h1 className="md:text-8xl text-5xl tracking-normal text-blue-900 ">
+        <h1 className="md:text-9xl text-5xl tracking-tighter text-[#003569] ">
           Essential Vitamins
         </h1>
         <div className="flex md:flex-row flex-col pt-4 ">
@@ -19,7 +19,7 @@ const Explore = () => {
               <p className="text-md text-[#17414F] w-32 pb-2 ">
                 Get Your Vitamins & Minerals
               </p>
-              <button className="w-24 pl-1 pr-3 py-2 rounded-2xl bg-cyan-950 text-xs font-bold text-white">
+              <button className="w-24 pl-1 pr-3 py-2 rounded-2xl bg-[#17414F] text-xs font-bold text-white">
                 Explore
               </button>
             </div>
@@ -33,7 +33,13 @@ const Explore = () => {
 
           <div className=" w-56 h-48 md:pt-3 rounded-tl-[62px] bg-yellow-300 pl-6 rounded-br-[60px]">
             <div className="-mt-16 pt-1 ">
-              <Image src="/images/capsule.png" width={300} height={120} />
+              <Image
+                src="/images/capsule.png"
+                width={300}
+                height={120}
+                alt="image"
+                priority
+              />
             </div>
           </div>
 
@@ -44,9 +50,10 @@ const Explore = () => {
               <div className="flex gap-2 ">
                 <div className="bg-cyan-950 w-10 h-10 mt-1 rounded-full">
                   <Image
-                    src="/images/Frame-8363.png(1).svg"
+                    src="/images/Frame-8365.png.png"
                     width={40}
                     height={40}
+                    alt="image"
                   />
                 </div>
 
@@ -67,6 +74,7 @@ const Explore = () => {
                     src="/images/Frame-8364.png.png"
                     width={40}
                     height={40}
+                    alt="image"
                   />
                 </div>
 
@@ -89,6 +97,7 @@ const Explore = () => {
                     src="/images/Frame-8365.png.png"
                     width={40}
                     height={40}
+                    alt="image"
                   />
                 </div>
 
@@ -108,12 +117,7 @@ const Explore = () => {
           </div>
         </div>
         {/*  */}
-        {/* About */}
-        {/* end of the About section */}
       </div>
-      {/* <div className="ml-2">
-        <About />
-      </div> */}
     </div>
   );
 };
