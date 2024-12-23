@@ -2,16 +2,20 @@ import React from "react";
 import Image from "next/image";
 const blog = () => {
   return (
-    <div className="md:w-[850px] mx-auto  ">
+    <div className="md:w-[850px] mx-auto cursor-pointer ">
       <div flex flex-col>
         <center>
-          <h1 className="text-[#003569] text-xs pt-4">Our Blog</h1>
-          <h2 className="text-[#17414F] text-lg pb-4">Latest News</h2>
+          <h1 className="text-[#003569] cursor-pointer hover:text-sky-700 text-xs pt-4">
+            Our Blog
+          </h1>
+          <h2 className="text-[#17414F] text-lg pb-4 hover:text-sky-700">
+            Latest News
+          </h2>
         </center>
       </div>
       <div className="grid md:grid-rows-3 md:grid-flow-col gap-3 grid-flow-row">
         {/* 1 */}
-        <div className="md:row-span-2  w-52 ">
+        <div className="md:row-span-2  w-52 cursor-pointer hover:bg-transparent">
           {/* <div className="bg-bg5 bg-cover md:h-72 p-5"> */}
           {/* <button className=" border-w-2  text-xs font-semibold text-green-950 border-b-2 border-slate-900">
               SEE MORE

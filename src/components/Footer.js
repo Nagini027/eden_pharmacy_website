@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Footer = () => {
   return (
-    <div className="w-full bg-green-950 ">
+    <div className="w-full bg-green-950 cursor-pointer ">
       <div className=" md:flex-row  flex-col gap-5 flex md:w-[850px] mx-auto p-2">
         {/* 1 */}
         <div className="w-60 h-12 flex bg-cyan-950  gap-2 rounded-lg">
